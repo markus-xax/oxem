@@ -24,7 +24,6 @@ class Farm
         }
         for($i=0; $i<$animals; $i++)
         {
-            $arr = [];
             $arr[] = $i + 1;
         }
     }
