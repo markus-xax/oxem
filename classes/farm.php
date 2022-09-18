@@ -8,8 +8,8 @@ class Farm
 {
     public $cow = 10;
     public $chicken = 20;
-    public $oneCow = [];
-    public $oneChicken = [];
+    protected $oneCow = [];
+    protected $oneChicken = [];
 
     public function __construct()
     {
