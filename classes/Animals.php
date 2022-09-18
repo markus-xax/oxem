@@ -6,8 +6,8 @@ use FarmClass\Farm;
 
 class Animals extends Farm
 {
-    public $milk;
-    public $egs;
+    protected $milk;
+    protected $egs;
 
     public function __construct()
     {
